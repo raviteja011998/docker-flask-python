@@ -1,0 +1,9 @@
+Create Flask Application
+-------------------------
+yum install python -y
+yum install python-pip -y
+pip install flask 
+
+copy your python app to current directory
+https://github.com/mohammedashiqu/docker-flask-python.git
+FLASK_APP=app.py flask run --host=0.0.0.0 --port=100
